@@ -70,6 +70,7 @@ open class EPSignatureViewController: UIViewController {
         
         lblSignatureSubtitle.text = subtitleText
         switchSaveSignature.setOn(false, animated: true)
+        signatureView.backgroundColor = UIColor.white
     }
     
     override open func didReceiveMemoryWarning() {
